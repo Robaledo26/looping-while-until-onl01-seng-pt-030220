@@ -1,6 +1,17 @@
+#untill levitation force = 10 
+#phrase "Wingardium Leviosa"
+#increment your levation force by 1
+
 def using_until
   levitation_force = 6
-  #your code here
-    
+  until levitation_force >= 10
+   puts "Wingardium Leviosa"
+   levitation_force += 1
+ end
 end
+  
+
+
+    
+
 
